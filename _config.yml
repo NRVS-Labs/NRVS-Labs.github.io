@@ -4,8 +4,8 @@
 
 title: NRVS # the website title (if blank, full name will be used instead)
 first_name: NRVS Labs
-middle_name: 
-last_name: 
+middle_name:
+last_name:
 email: nrvslabs@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Neurotechnology Research and Ventures through Software
