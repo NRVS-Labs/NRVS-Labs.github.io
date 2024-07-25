@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f0f0f0;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.logo-container {
+    display: inline-block;
+    border-radius: 50%; /* Adjust this value based on your logo's actual border-radius */
+    overflow: hidden; /* Ensures the shadow is clipped to the rounded corners */
+}
+
+.logo {
+    width: 220px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10%; /* Ensure this matches the .logo-container's border-radius */
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.subsection {
+    background-color: #f0f0f0;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsection-content {
+    text-align: center;
+}
+
+.emails-subsection {
+    background-color: #f0f0f0;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emails-subsection-content {
+    text-align: center;
+}
+
+.emails-subsection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: purple;
+    font-weight: 500;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
